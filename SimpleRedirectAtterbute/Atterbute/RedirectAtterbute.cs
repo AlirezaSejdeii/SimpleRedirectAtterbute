@@ -13,10 +13,5 @@ namespace SimpleRedirectAtterbute.Atterbute
         {
             context.Result = new RedirectResult("https://www.google.com");
         }
-        public override void OnActionExecuted(ActionExecutedContext context)
-        {
-            base.OnActionExecuted(context);
-        }
     }
-   
 }
